@@ -1,6 +1,8 @@
 # Feller's diffusion equation
 ----
 
+Numerical simulation of Feller's diffusion equation using an adaptive Lagrangian scheme with moving grid nodes on semi-infinite domain.
+
 ![Feller's diffusion equation](/pics/fellereq.png)
 
 ![Trajectory of nodes](/pics/ExpandingTrajSmall.png)
