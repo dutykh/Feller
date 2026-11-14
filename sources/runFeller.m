@@ -1,5 +1,5 @@
 %{
-    Finite volume solver for wave propagation and run-up
+    Adaptive Lagrangian scheme for Feller's diffusion equation on the half-line
     Copyright (C) 2018 Denys DUTYKH & Laurent GOSSE
 
     This program is free software: you can redistribute it and/or modify

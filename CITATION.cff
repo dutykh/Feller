@@ -1,0 +1,51 @@
+# Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
+cff-version: 1.2.0
+message: "If you use this code, please cite the article given under preferred-citation."
+title: "Feller: an adaptive Lagrangian scheme for Feller's diffusion equation on the half-line"
+type: software
+authors:
+  - family-names: Dutykh
+    given-names: Denys
+    affiliation: "Khalifa University of Science and Technology"
+    orcid: "https://orcid.org/0000-0001-5247-2788"
+  - family-names: Gosse
+    given-names: Laurent
+    affiliation: "Istituto per le Applicazioni del Calcolo, CNR"
+repository-code: "https://github.com/dutykh/Feller"
+license: GPL-3.0-or-later
+version: 1.0.1
+date-released: "2026-11-14"
+keywords:
+  - feller-diffusion
+  - diffusion-equation
+  - fokker-planck-equation
+  - partial-differential-equations
+  - probability
+  - wave-turbulence
+  - lagrangian-scheme
+  - moving-mesh
+  - numerical-methods
+  - matlab
+abstract: >-
+  MATLAB scripts that solve Feller's diffusion equation, the Fokker-Planck equation of the Feller process, on the
+  half-line, where its diffusion coefficient grows without bound and the support of its solutions may extend to
+  infinity. The equation is rewritten in Lagrangian variables, the inverse of the cumulative distribution, so that
+  moving nodes carry fixed probabilities and cover the half-line without truncation; the nodes are advanced by ode45.
+  The shipped script runs the confining experiment of the accompanying article (Mathematics, 2019).
+preferred-citation:
+  type: article
+  title: "Numerical Simulation of Feller's Diffusion Equation"
+  authors:
+    - family-names: Dutykh
+      given-names: Denys
+  journal: "Mathematics"
+  volume: 7
+  issue: "11"
+  start: 1067
+  year: 2019
+  month: 11
+  doi: "10.3390/math7111067"
+  identifiers:
+    - type: url
+      value: "https://arxiv.org/abs/1909.10944"
+      description: "arXiv preprint"
